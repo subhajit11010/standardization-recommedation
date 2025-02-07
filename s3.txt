@@ -1,0 +1,10 @@
+anganwadi_worker = 3 values = 0.0, 1.0, 2.0
+cce_pr, cce_up = 1.0, 2.0, 9.0
+smdc_constituted,   solar_panel  = 1.0, 2.0, 3.0
+transport_pr=0.0,1.0,22.0
+building_status = one hot
+library_availability,playground_available,medical_checkups,availability_ramps,availability_of_handrails, handwash_near_toilet,drinking_water_available,drinking_water_functional,rain_water_harvesting,handwash_facility_for_meal,electricity_availability , approachable_road, anganwadi_premises, special_training ,  smc_exists , separate_room_for_hm = 1.0, 2.0 
+special_school_for_cwsn, school_type, text_books_received, material_training, transport_up,grants_receipt, grants_expenditure, drinking_water_available, drinking_water_functional, rural_urban = drop
+
+special_school_for_cwsn, school_type, rural_urban, 'text_books_received', 'material_training', 'transport_up', 
+'grants_receipt', 'grants_expenditure' , 'drinking_water_available', 'drinking_water_functional'-> ASK seperately

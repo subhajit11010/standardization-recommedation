@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input School Features</title>
+</head>
+<body>
+    <h1>Input School Features</h1>
+    <form action="/" method="POST">
+        <h3>Binary Features (0 or 1)</h3>
+        <label for="library_availability">Library Availability:</label>
+        <input type="checkbox" id="library_availability" name="lbrary_availability" value="1"><br>
+
+        <label for="playground_available">Playground Available:</label>
+        <input type="checkbox" id="playground_available" name="playground_available" value="1"><br>
+
+        <label for="medical_checkups">Medical Checkups:</label>
+        <input type="checkbox" id="medical_checkups" name="medical_checkups" value="1"><br>
+
+        <label for="availability_ramps">Availability of Ramps:</label>
+        <input type="checkbox" id="availability_ramps" name="availability_ramps" value="1"><br>
+
+        <label for="availability_of_handrails">Availability of Handrails:</label>
+        <input type="checkbox" id="availability_of_handrails" name="availability_of_handrails" value="1"><br>
+
+        <label for="handwash_near_toilet">Handwash Near Toilet:</label>
+        <input type="checkbox" id="handwash_near_toilet" name="handwash_near_toilet" value="1"><br>
+
+        <label for="drinking_water_available">Drinking Water Available:</label>
+        <input type="checkbox" id="drinking_water_available" name="drinking_water_available" value="1"><br>
+
+        <label for="drinking_water_functional">Drinking Water Functional:</label>
+        <input type="checkbox" id="drinking_water_functional" name="drinking_water_functional" value="1"><br>
+
+        <label for="rain_water_harvesting">Rain Water Harvesting:</label>
+        <input type="checkbox" id="rain_water_harvesting" name="rain_water_harvesting" value="1"><br>
+
+        <label for="handwash_facility_for_meal">Handwash Facility for Meal:</label>
+        <input type="checkbox" id="handwash_facility_for_meal" name="handwash_facility_for_meal" value="1"><br>
+
+        <label for="electricity_availability">Electricity Availability:</label>
+        <input type="checkbox" id="electricity_availability" name="electricity_availability" value="1"><br>
+
+        <label for="approachable_road">Approachable Road:</label>
+        <input type="checkbox" id="approachable_road" name="approachable_road" value="1"><br>
+
+        <label for="anganwadi_premises">Anganwadi Premises:</label>
+        <input type="checkbox" id="anganwadi_premises" name="anganwadi_premises" value="1"><br>
+
+        <label for="special_training">Special Training:</label>
+        <input type="checkbox" id="special_training" name="special_training" value="1"><br>
+
+        <label for="smc_exists">SMC Exists:</label>
+        <input type="checkbox" id="smc_exists" name="smc_exists" value="1"><br>
+
+        <label for="separate_room_for_hm">Separate Room for HM:</label>
+        <input type="checkbox" id="separate_room_for_hm" name="separate_room_for_hm" value="1"><br>
+
+        <h3>Categorical Features</h3>
+
+        <label for="school_type">Anganwadi Worker:</label>
+        <select id="school_type" name="school_type">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br>
+
+        <label for="anganwadi_worker">Anganwadi Worker:</label>
+        <select id="anganwadi_worker" name="anganwadi_worker">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select><br>
+
+        <label for="cce_pr">CCE PR:</label>
+        <select id="cce_pr" name="cce_pr">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="9">9</option>
+        </select><br>
+
+        <label for="cce_up">CCE UP:</label>
+        <select id="cce_up" name="cce_up">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="9">9</option>
+        </select><br>
+
+        <label for="smdc_constituted">SMDC Constituted:</label>
+        <select id="smdc_constituted" name="smdc_constituted">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br>
+
+        <label for="solar_panel">Solar Panel:</label>
+        <select id="solar_panel" name="solar_panel">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br>
+
+        <label for="transport_pr">Transport PR:</label>
+        <select id="transport_pr" name="transport_pr">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="22">22</option>
+        </select><br>
+
+        <label for="building_status">Building Status:</label>
+        <select id="building_status" name="building_status">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+        </select><br>
+
+        <h3>Numeric Features (Input Number)</h3>
+        <label for="lowclass">Low Class (Number):</label>
+        <input type="number" id="lowclass" name="lowclass"><br>
+
+        <label for="highclass">High Class (Number):</label>
+        <input type="number" id="highclass" name="highclass"><br>
+
+        <label for="anganwadi_boys">Anganwadi Boys (Number):</label>
+        <input type="number" id="anganwadi_boys" name="anganwadi_boys"><br>
+
+        <label for="anganwadi_girls">Anganwadi Girls (Number):</label>
+        <input type="number" id="anganwadi_girls" name="anganwadi_girls"><br>
+
+        <label for="instr_days_pr">Instruction Days for Primary (Number):</label>
+        <input type="number" id="instr_days_pr" name="instr_days_pr"><br>
+
+        <label for="instr_days_up">Instruction Days for Upper Primary (Number):</label>
+        <input type="number" id="instr_days_up" name="instr_days_up"><br>
+
+        <label for="avg_school_hrs_student_pr">Avg School Hours for Student (Primary) (Number):</label>
+        <input type="number" id="avg_school_hrs_student_pr" name="avg_school_hrs_student_pr"><br>
+
+        <label for="avg_school_hrs_student_up">Avg School Hours for Student (Upper Primary) (Number):</label>
+        <input type="number" id="avg_school_hrs_student_up" name="avg_school_hrs_student_up"><br>
+
+        <label for="avg_school_hrs_teacher_pr">Avg School Hours for Teacher (Primary) (Number):</label>
+        <input type="number" id="avg_school_hrs_teacher_pr" name="avg_school_hrs_teacher_pr"><br>
+
+        <label for="avg_school_hrs_teacher_up">Avg School Hours for Teacher (Upper Primary) (Number):</label>
+        <input type="number" id="avg_school_hrs_teacher_up" name="avg_school_hrs_teacher_up"><br>
+
+        <label for="acad_inspections">Academic Inspections (Number):</label>
+        <input type="number" id="acad_inspections" name="acad_inspections"><br>
+
+        <label for="crc_coordinator">CRC Coordinator (Number):</label>
+        <input type="number" id="crc_coordinator" name="crc_coordinator"><br>
+
+        <label for="block_level_officers">Block Level Officers (Number):</label>
+        <input type="number" id="block_level_officers" name="block_level_officers"><br>
+
+        <label for="district_officers">District Officers (Number):</label>
+        <input type="number" id="district_officers" name="district_officers"><br>
+
+        <label for="free_text_books_pr">Free Text Books for Primary (Number):</label>
+        <input type="number" id="free_text_books_pr" name="free_text_books_pr"><br>
+
+        <label for="free_uniform_pr">Free Uniform for Primary (Number):</label>
+        <input type="number" id="free_uniform_pr" name="free_uniform_pr"><br>
+
+        <label for="free_text_books_up">Free Text Books for Upper Primary (Number):</label>
+        <input type="number" id="free_text_books_up" name="free_text_books_up"><br>
+
+        <label for="free_uniform_up">Free Uniform for Upper Primary (Number):</label>
+        <input type="number" id="free_uniform_up" name="free_uniform_up"><br>
+
+        <label for="no_building_blocks">No Building Blocks (Number):</label>
+        <input type="number" id="no_building_blocks" name="no_building_blocks"><br>
+
+        <label for="pucca_building_blocks">Pucca Building Blocks (Number):</label>
+        <input type="number" id="pucca_building_blocks" name="pucca_building_blocks"><br>
+
+        <label for="boundary_wall">Boundary Wall (Number):</label>
+        <input type="number" id="boundary_wall" name="boundary_wall"><br>
+
+        <label for="total_class_rooms">Total Classrooms (Number):</label>
+        <input type="number" id="total_class_rooms" name="total_class_rooms"><br>
+
+        <label for="other_rooms">Other Rooms (Number):</label>
+        <input type="number" id="other_rooms" name="other_rooms"><br>
+
+        <label for="classrooms_in_good_condition">Classrooms in Good Condition (Number):</label>
+        <input type="number" id="classrooms_in_good_condition" name="classrooms_in_good_condition"><br>
+
+        <label for="classrooms_needs_minor_repair">Classrooms Need Minor Repair (Number):</label>
+        <input type="number" id="classrooms_needs_minor_repair" name="classrooms_needs_minor_repair"><br>
+
+        <label for="classrooms_needs_major_repair">Classrooms Need Major Repair (Number):</label>
+        <input type="number" id="classrooms_needs_major_repair" name="classrooms_needs_major_repair"><br>
+
+        <label for="total_boys_toilet">Total Boys Toilet (Number):</label>
+        <input type="number" id="total_boys_toilet" name="total_boys_toilet"><br>
+
+        <label for="total_boys_func_toilet">Total Boys Functional Toilet (Number):</label>
+        <input type="number" id="total_boys_func_toilet" name="total_boys_func_toilet"><br>
+
+        <label for="total_girls_toilet">Total Girls Toilet (Number):</label>
+        <input type="number" id="total_girls_toilet" name="total_girls_toilet"><br>
+
+        <label for="total_girls_func_toilet">Total Girls Functional Toilet (Number):</label>
+        <input type="number" id="total_girls_func_toilet" name="total_girls_func_toilet"><br>
+
+        <label for="func_boys_cwsn_friendly">Functional Boys CWSN Friendly (Number):</label>
+        <input type="number" id="func_boys_cwsn_friendly" name="func_boys_cwsn_friendly"><br>
+
+        <label for="func_girls_cwsn_friendly">Functional Girls CWSN Friendly (Number):</label>
+        <input type="number" id="func_girls_cwsn_friendly" name="func_girls_cwsn_friendly"><br>
+
+        <label for="urinal_boys">Urinal Boys (Number):</label>
+        <input type="number" id="urinal_boys" name="urinal_boys"><br>
+
+        <label for="urinla_girls">Urinal Girls (Number):</label>
+        <input type="number" id="urinla_girls" name="urinla_girls"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
