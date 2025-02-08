@@ -70,7 +70,8 @@ def calculate_standardization_percentage(new_school_scaled):
 
     model = joblib.load('best_rf_model.joblib')
     y_pred = model.predict(new_school_scaled)
-    print(f"Predicted Standardization Percentage for the new school: {y_pred[0]}")
+    return y_pred[0]
+    # print(f"Predicted Standardization Percentage for the new school: {y_pred[0]}")
 
 def recommend_feature_improve(new_school_scaled):
     recommendations = {}
@@ -97,4 +98,4 @@ def analyze_new_school(new_school_data):
     # Step 3: Feature Improvement Recommendations
     recommendations = recommend_feature_improve(new_school_scaled)
     
-    return recommendations
+    return recommendations, standardization_percentage
